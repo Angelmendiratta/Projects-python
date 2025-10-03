@@ -35,4 +35,5 @@ my_city.temp_print()
 
 vacation_city = City("Portland", 45.5152, -122.6784, units = "imperial")
 vacation_city.temp_print()
-print(vacation_city.response_json)
+# print(vacation_city.response_json)
+
