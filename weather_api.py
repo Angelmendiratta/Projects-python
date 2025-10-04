@@ -25,8 +25,8 @@ class City:
         if self.units ==   "imperial":
            units_symbol = "F"
         print(f"In {self.name} it is currently {self.temp}° {units_symbol}")
-        print(f"In {self.name} minimum temperature today is {self.temp_min}° {units_symbol}")
-        print(f"In {self.name} maximum temperature today is {self.temp_max}° {units_symbol}")
+        # print(f"In {self.name} minimum temperature today is {self.temp_min}° {units_symbol}")
+        # print(f"In {self.name} maximum temperature today is {self.temp_max}° {units_symbol}")
 
     
 
@@ -36,4 +36,5 @@ my_city.temp_print()
 vacation_city = City("Portland", 45.5152, -122.6784, units = "imperial")
 vacation_city.temp_print()
 # print(vacation_city.response_json)
+
 
